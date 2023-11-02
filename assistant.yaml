@@ -40,8 +40,8 @@ wifi:
 captive_portal:
 
 i2s_audio:
-    i2s_lrclk_pin: GPIO26
-    i2s_bclk_pin: GPIO27
+    i2s_lrclk_pin: GPIO26 #Mic WS
+    i2s_bclk_pin: GPIO27 #Mic SCK
 
 microphone:
   - platform: i2s_audio
